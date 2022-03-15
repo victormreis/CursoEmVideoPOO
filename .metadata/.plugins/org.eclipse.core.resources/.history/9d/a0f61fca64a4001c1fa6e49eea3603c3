@@ -24,13 +24,13 @@ public class ControleRemoto implements Controlador {
 	public boolean getLigado() {
 		return ligado;
 	}
-	private void setLigado(boolean ligado) {
+	public void setLigado(boolean ligado) {
 		this.ligado = ligado;
 	}
-	private boolean getTocando() {
+	public boolean getTocando() {
 		return tocando;
 	}
-	private void setTocando(boolean tocando) {
+	public void setTocando(boolean tocando) {
 		this.tocando = tocando;
 	}
 	
