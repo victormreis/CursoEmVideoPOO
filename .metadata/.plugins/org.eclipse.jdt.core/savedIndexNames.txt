@@ -1,0 +1,4 @@
+INDEX VERSION 1.131+C:\Users\vitor\Desktop\Estudos\curso em video\JavaPOO\.metadata\.plugins\org.eclipse.jdt.core
+760091825.index
+2026786527.index
+1865797976.index

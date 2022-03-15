@@ -1,0 +1,17 @@
+package ExemploPartico;
+
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+		Scanner read = new Scanner(System.in);
+		
+		Conta c1 = new Conta();
+		
+		
+		
+		System.out.println("Escolha uma opção [1]Abrir Conta [2]Sacar [3] Depositar");
+	}
+
+}

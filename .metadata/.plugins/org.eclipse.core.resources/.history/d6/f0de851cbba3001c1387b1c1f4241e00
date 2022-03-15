@@ -1,0 +1,42 @@
+package ExemploPartico;
+
+import java.util.Scanner;
+
+public class Pessoa {
+	private String nome;
+	private String cpf;
+	
+	Scanner read = new Scanner(System.in);
+	
+	public void cadastrar(String nome, String cpf) {
+		System.out.println("Nome do cliente: ");
+		nome = read.next();
+		System.out.println("CPF do cliente: ");
+		nome = read.next();
+		this.setNome(nome);
+		this.setCpf(cpf);
+	}
+	
+	
+	
+	public String getNome() {
+		return nome;
+	}
+	public void setNome(String nome) {
+		this.nome = nome;
+	}
+	public String getCpf() {
+		return cpf;
+	}
+	public void setCpf(String cpf) {
+		this.cpf = cpf;
+	}
+	
+	public void status() {
+		System.out.println("Nome: "+this.getNome());
+	}
+	
+	
+	
+
+}
