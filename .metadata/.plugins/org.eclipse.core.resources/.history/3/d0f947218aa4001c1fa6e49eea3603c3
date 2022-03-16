@@ -1,0 +1,12 @@
+package RelacaoEntreClasses;
+
+public class Main {
+
+	public static void main(String[] args) {
+		Lutador l = new Lutador("Charles do Bronks", "Brasil", 35, 1.75, 68.5, 13,1,0);
+		
+		l.apresentar();
+
+	}
+
+}
