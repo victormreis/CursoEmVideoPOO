@@ -26,7 +26,7 @@ public class Lutador {
 	public void apresentar () {
 		System.out.println("Chegou a hora da luta, Apresento o lutador "+this.getNome());
 		System.out.println("Ele é do "+this.getNacionalidade());
-		System.out.println("Tem "+this.getIdade() + " e "+this.getAltura()+" de altura!");
+		System.out.println("Tem "+this.getIdade() + " anos e "+this.getAltura()+" de altura!");
 		System.out.println("Pesando "+this.getPeso() + "KG");
 		System.out.println("Número de vitorias: "+this.getVitorias());
 		System.out.println("Número de derrotas: "+this.getDerrotas());

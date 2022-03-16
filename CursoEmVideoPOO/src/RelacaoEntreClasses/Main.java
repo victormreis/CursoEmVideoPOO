@@ -11,6 +11,18 @@ public class Main {
 		l[4] = new Lutador ("Amanda Nunes", "Brasil", 33, 1.73, 61.9, 11,3,2);
 		l[5] = new Lutador ("Miesha Tate", "USA", 35, 1.68, 61.2, 10,3,0);
 		
+		Luta ufc01 = new Luta();
+		Luta ufc02 = new Luta();
+		ufc01.marcarLuta(l[0], l[1]);
+		ufc01.lutar();
+		
+		l[0].status();
+		l[1].status();
+		
+		ufc02.marcarLuta(l[4], l[5]);
+		ufc02.lutar();
+		
+		
 		
 		
 		
