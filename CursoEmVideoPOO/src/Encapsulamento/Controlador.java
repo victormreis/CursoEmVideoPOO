@@ -2,16 +2,16 @@ package Encapsulamento;
 
 public interface Controlador {
 	
-	public abstract void ligar();
-	public abstract void desligar();
-	public abstract void abrirMenu();
-	public abstract void fecharMenu();
-	public abstract void maisVolumee();
-	public abstract void meenosVolumeee();
-	public abstract void ligarMudo();
-	public abstract void desligarMudo();
-	public abstract void play();
-	public abstract void pause();
+	public void ligar();
+	public void desligar();
+	public void abrirMenu();
+	public void fecharMenu();
+	public void maisVolumee();
+	public void meenosVolumeee();
+	public void ligarMudo();
+	public void desligarMudo();
+	public void play();
+	public void pause();
 	
 	
 

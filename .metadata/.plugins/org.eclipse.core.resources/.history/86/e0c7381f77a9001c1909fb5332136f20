@@ -1,0 +1,14 @@
+package Exercicio;
+
+public class Main {
+
+	public static void main(String[] args) {
+		Pessoa [] p  = new Pessoa[2];
+		Livro [] l = new Livro[3];		
+		p[0] = new Pessoa("Vicotr", 27, "Masculino");
+		p[1] = new Pessoa ("Daiane", 24, "Feminino");
+		l[0] = new Livro ("")
+
+	}
+
+}
