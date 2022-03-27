@@ -1,0 +1,21 @@
+package Heranca;
+
+public class Bolsista extends Aluno // Classe filha de aluno e neta de pessoa
+{
+	private int bolsa;
+	
+	public void renovarBolsa() {
+		System.out.println("Bolsa Renovada!");
+	}
+
+	public int getBolsa() {
+		return bolsa;
+	}
+
+	public void setBolsa(int bolsa) {
+		this.bolsa = bolsa;
+	}
+	
+		
+
+}

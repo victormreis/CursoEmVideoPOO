@@ -1,0 +1,17 @@
+package Heranca;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		Visitante v1 = new Visitante();
+		Bolsista b1 = new Bolsista();
+		
+		b1.setNome("Daiane");
+	
+		
+		System.out.println(b1.toString());
+
+	}
+
+}

@@ -33,7 +33,7 @@ public class Main {
 		
 		}
 		System.out.println("Obrigado por usar os caixas VtxCapital");
-		
+		read.close();
 		c1.status();
 	}
 
